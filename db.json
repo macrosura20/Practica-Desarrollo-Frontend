@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "username": "test@test.es",
+      "password": "$2b$10$wngfKayExB5GDuYnxhEEZexdzh0p1YHCdxonJg3ZxYqevSjXlJ6sq",
+      "id": 1
+    },
+    {
+      "username": "test2@test.es",
+      "password": "$2b$10$e8XElqLUi/9O1J3.nUnNduhMTJMGZ4/pexsbNuZBcSWvWLHhnm1fK",
+      "id": 2
+    },
+    {
+      "username": "test3@test.es",
+      "password": "$2b$10$79vki44RSgDdqCmyJgrXfOPHaEmgTbUIMt8WrT3djnnbb6jtJyM9i",
+      "id": 3
+    }
+  ],
+  "products": [
+    {
+      "photo": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51iR6nXKD-L._AC_SX425_.jpg",
+      "userId": 1,
+      "updatedAt": "2023-03-19T08:28:49.900Z",
+      "id": 1,
+      "name": "Peluche",
+      "description": "Peluches inspirados en el videojuego de aventuras, puzles y terror donde has de escapar de una fábrica de juguetes habitada por unos juguetes con sed de venganza.",
+      "price": "17.95",
+      "buy": "True"
+    },
+    {
+      "name": "Playstation 5",
+      "price": "450",
+      "photo": "https://assets.mmsrg.com/isr/166325/c1/-/ASSET_MMS_102608355/fee_786_587_png",
+      "buy": "False",
+      "description": "Consola",
+      "userId": 1,
+      "updatedAt": "2023-03-19T17:17:48.069Z",
+      "id": 2
+    },
+    {
+      "name": "Little Secret",
+      "price": "19.99",
+      "photo": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/61owrI8KkDL._AC_SX522_.jpg",
+      "buy": "True",
+      "description": "Little Secret es un juego de mesa intuitivo de imaginación y asociación de palabras y codigo secreto. Cartas para fiestas con amigos o en familia: adultos y niños.",
+      "userId": 1,
+      "updatedAt": "2023-03-19T20:51:18.037Z",
+      "id": 3
+    },
+    {
+      "name": "El Anillo Único",
+      "price": "42.50",
+      "photo": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/71pdR4XNkrL._AC_SX425_.jpg",
+      "buy": "False",
+      "description": "Adéntrate en el mundo de la Tierra Media con El Anillo Único, el juego de rol de mesa basado en las obras de J.R.R. Tolkien. Diseñado para evocar la atmósfera de El Hobbit y El Señor de los Anillos, el juego contiene reglas para crear héroes y enviarlos a vivir aventuras en una tierra amenazada por la creciente Sombra. ",
+      "userId": 1,
+      "updatedAt": "2023-03-19T20:52:21.763Z",
+      "id": 4
+    }
+  ]
+}

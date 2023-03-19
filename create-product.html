@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/spinner.css">
+  <title>Crear Anuncio</title>
+</head>
+<body>
+  <h1>Crear Nuevo Anuncio</h1>
+
+  <form id="createProductForm">
+    <label for="name">Nombre del Producto</label>
+    <input type="text" name="name" id="name" required>
+    <br>
+    <label for="price">Precio</label>
+    <input type="number" step="any" name="price" id="price" required>
+    <br>
+    <label for="photo">Foto(Opcional)</label>
+    <input type="url" name="photo" id="photo" placeholder="https://photo.jpg" pattern="https://.*" size="30">
+    <br>
+    <label for="buyValue">¿Que desea Comprar o Vender?</label>
+    <select name="buyValue" id="buyValue" required>
+      <option value="True">Comprar</option>
+      <option value="False">Vender</option>
+    </select>
+    <br>
+    <p>Descripición del producto</p>
+    <textarea name="description" id="description" cols="30" rows="10" required></textarea>
+
+    <button type="submit">Crear Anuncio</button>
+  </form>
+
+  <script type="module" src="./create-product/index.js"></script>
+</body>
+</html>

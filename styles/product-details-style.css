@@ -1,0 +1,7 @@
+img{
+    border: solid 2px lightgray;
+    position: left;
+    width: autopx;
+    height: 400px;
+    background-color: white;
+}
